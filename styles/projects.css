@@ -1,0 +1,33 @@
+#intro-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 140px;
+  margin-bottom: 40px;
+}
+#intro-section section:last-child div {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 50px;
+  border-bottom: 1px solid #979797;
+  margin-bottom: 10px;
+}
+#intro-section section:last-child div span {
+  margin-bottom: 10px;
+  width: max-content;
+  justify-self: start;
+}
+#intro-section section:last-child div span:last-child {
+  grid-column-start: 2;
+}
+
+p {
+  margin-top: 40px;
+}
+
+#img-section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+/*# sourceMappingURL=projects.css.map */

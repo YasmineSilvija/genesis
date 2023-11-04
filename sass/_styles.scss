@@ -1,0 +1,18 @@
+@mixin navigation {
+  display: flex;
+  gap: 20px;
+  li {
+    list-style: none;
+    &:first-child {
+      margin-right: auto;
+    }
+    &:nth-child(4) {
+      margin-left: 60px;
+    }
+  }
+}
+
+@mixin flex-between {
+  display: flex;
+  justify-content: space-between;
+}

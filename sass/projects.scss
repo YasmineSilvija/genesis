@@ -1,0 +1,36 @@
+@import 'styles';
+
+#intro-section {
+  @include flex-between;
+  gap: 140px;
+  margin-bottom: 40px;
+
+  section:last-child {
+    div {
+      display: grid;
+      grid-template-columns: auto auto;
+      gap: 50px;
+      border-bottom: 1px solid #979797;
+      margin-bottom: 10px;
+
+      span {
+        margin-bottom: 10px;
+        width: max-content;
+        justify-self: start;
+      }
+
+      span:last-child {
+        grid-column-start: 2;
+      }
+    }
+  }
+}
+
+p {
+  margin-top: 40px;
+}
+
+#img-section {
+  @include flex-between;
+  margin-top: 40px;
+}

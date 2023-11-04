@@ -1,0 +1,55 @@
+@import 'styles';
+
+section {
+  @include flex-between;
+  gap: 160px;
+}
+
+main {
+
+  section,
+  img {
+    margin-bottom: 30px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  img {
+    width: 100%;
+    height: 570px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+
+    input {
+      display: block;
+      background: inherit;
+      border: 0;
+      border-bottom: 1px solid #9DBEBB;
+      margin-bottom: 10px;
+      letter-spacing: 5.4px;
+      font-size: 18px;
+      color: #fdffff;
+
+      &:hover {
+        border-bottom-color: #596a6a;
+      }
+    }
+
+    button {
+      background: #4a4ff2;
+      color: #fff;
+      width: 125px;
+      height: 50px;
+      cursor: pointer;
+
+      &:hover {
+        background: #417d78;
+      }
+    }
+  }
+}

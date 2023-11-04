@@ -1,0 +1,65 @@
+main > div {
+  font-size: 12px;
+}
+
+#top-section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+#top-section span {
+  color: #4a4ff2;
+}
+#top-section div:last-child {
+  opacity: 0.5;
+  font-size: 18px;
+  font-style: italic;
+  align-self: flex-end;
+}
+#top-section div:last-child div {
+  max-width: 10%;
+  border: 2px black solid;
+  margin-bottom: 4px;
+}
+
+#collage {
+  display: flex;
+  gap: 20px;
+}
+#collage div {
+  display: grid;
+  gap: 20px;
+}
+
+#below-collage {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 0;
+}
+
+.gray {
+  color: #111;
+  opacity: 0.6;
+}
+
+#last-section div {
+  display: grid;
+  grid-template-columns: 474px 285px 311px 39px;
+}
+#last-section div div {
+  display: flex;
+  flex-direction: column;
+}
+#last-section div div h4 {
+  margin: 0;
+}
+
+hr {
+  color: #979797;
+  margin-bottom: 10px;
+}
+hr:last-child {
+  margin-bottom: 50px;
+}
+
+/*# sourceMappingURL=index.css.map */

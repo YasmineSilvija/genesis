@@ -1,0 +1,71 @@
+@import 'styles';
+
+main>div {
+  font-size: 12px;
+}
+
+#top-section {
+  @include flex-between;
+  margin-bottom: 50px;
+
+  span {
+    color: #4a4ff2;
+  }
+
+  div:last-child {
+    opacity: 0.5;
+    font-size: 18px;
+    font-style: italic;
+    align-self: flex-end;
+
+    div {
+      max-width: 10%;
+      border: 2px black solid;
+      margin-bottom: 4px;
+    }
+  }
+}
+
+#collage {
+  display: flex;
+  gap: 20px;
+  div {
+    display: grid;
+    gap: 20px;
+  }
+}
+
+#below-collage {
+  @include flex-between;
+  margin: 50px 0;
+}
+
+.gray {
+  color: #111;
+  opacity: 0.6;
+}
+
+#last-section {
+  div {
+    display: grid;
+    grid-template-columns: 474px 285px 311px 39px;
+
+    div {
+      display: flex;
+      flex-direction: column;
+
+      h4 {
+        margin: 0;
+      }
+    }
+  }
+}
+
+hr {
+  color: #979797;
+  margin-bottom: 10px;
+
+  &:last-child {
+    margin-bottom: 50px;
+  }
+}

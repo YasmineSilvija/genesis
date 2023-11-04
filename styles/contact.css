@@ -1,0 +1,46 @@
+section {
+  display: flex;
+  justify-content: space-between;
+  gap: 160px;
+}
+
+main section,
+main img {
+  margin-bottom: 30px;
+}
+main h2 {
+  font-size: 40px;
+}
+main img {
+  width: 100%;
+  height: 570px;
+}
+main form {
+  display: flex;
+  flex-direction: column;
+}
+main form input {
+  display: block;
+  background: inherit;
+  border: 0;
+  border-bottom: 1px solid #9DBEBB;
+  margin-bottom: 10px;
+  letter-spacing: 5.4px;
+  font-size: 18px;
+  color: #fdffff;
+}
+main form input:hover {
+  border-bottom-color: #596a6a;
+}
+main form button {
+  background: #4a4ff2;
+  color: #fff;
+  width: 125px;
+  height: 50px;
+  cursor: pointer;
+}
+main form button:hover {
+  background: #417d78;
+}
+
+/*# sourceMappingURL=contact.css.map */

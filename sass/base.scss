@@ -1,0 +1,18 @@
+@import "https://fonts.googleapis.com/css?family=Mulish";
+@import 'styles';
+
+body {
+  max-width: 1110px;
+  width: 100%;
+  margin: auto;
+  font-family: mulish;
+  font-size: 16px;
+}
+nav {
+  margin: 20px 0 50px;
+  @include navigation;
+}
+footer {
+  margin: 40px 0 15px;
+  @include navigation;
+}
